@@ -1,0 +1,134 @@
+{
+  "blocks": [
+    {
+      "id": "B1",
+      "name": "Data Analysis",
+      "competencies": [
+        "C01",
+        "C02",
+        "C03",
+        "C04"
+      ]
+    },
+    {
+      "id": "B2",
+      "name": "Machine Learning",
+      "competencies": [
+        "C05",
+        "C06",
+        "C07"
+      ]
+    },
+    {
+      "id": "B3",
+      "name": "NLP",
+      "competencies": [
+        "C08",
+        "C09",
+        "C10"
+      ]
+    }
+  ],
+  "competencies": {
+    "C01": [
+      "Cleaning large datasets and handling missing or incorrect data using Python or Excel",
+      "Removing duplicates and preparing data for analysis in Python (pandas)",
+      "Preprocessing business data before loading in BI tools"
+    ],
+    "C02": [
+      "Creating interactive dashboards with Power BI or Tableau",
+      "Building visual reports with Matplotlib or Seaborn for management",
+      "Presenting data insights through engaging data visualizations"
+    ],
+    "C03": [
+      "Programming in Python for data processing tasks",
+      "Developing data transformation pipelines in pandas",
+      "Writing scripts to automate data cleaning and manipulation"
+    ],
+    "C04": [
+      "Drawing insights from datasets using descriptive statistics",
+      "Performing data exploration and reporting key findings",
+      "Identifying trends and outliers during data analysis"
+    ],
+    "C05": [
+      "Implementing regression models to predict business metrics",
+      "Building and evaluating linear and logistic regression models",
+      "Using scikit-learn to train predictive models on structured data"
+    ],
+    "C06": [
+      "Building supervised machine learning models for classification",
+      "Training and tuning decision trees or random forests",
+      "Working with labeled datasets for prediction tasks"
+    ],
+    "C07": [
+      "Deploying machine learning models for production use",
+      "Using cloud services to operationalize ML solutions",
+      "Automating workflows for model retraining and monitoring"
+    ],
+    "C08": [
+      "Cleaning text data by removing stopwords or special characters",
+      "Applying tokenization and stemming on documents",
+      "Preparing raw text for analysis with NLP libraries"
+    ],
+    "C09": [
+      "Building sentiment analysis models with machine learning",
+      "Classifying documents or emails using NLP pipelines",
+      "Using spaCy or NLTK for named entity recognition"
+    ],
+    "C10": [
+      "Understanding the architecture of transformers like BERT and GPT",
+      "Using transformers for text classification or generation",
+      "Explaining attention mechanisms in modern NLP models"
+    ]
+  },
+  "jobs": {
+    "J01": {
+      "title": "Data Analyst",
+      "requirements": [
+        "C01",
+        "C02",
+        "C03",
+        "C04"
+      ]
+    },
+    "J02": {
+      "title": "Business Intelligence Analyst",
+      "requirements": [
+        "C01",
+        "C02",
+        "C04"
+      ]
+    },
+    "J03": {
+      "title": "ML Engineer",
+      "requirements": [
+        "C03",
+        "C05",
+        "C06",
+        "C07"
+      ]
+    },
+    "J04": {
+      "title": "NLP Specialist",
+      "requirements": [
+        "C03",
+        "C08",
+        "C09",
+        "C10"
+      ]
+    },
+    "J05": {
+      "title": "Data Scientist",
+      "requirements": [
+        "C01",
+        "C02",
+        "C03",
+        "C04",
+        "C05",
+        "C06",
+        "C08",
+        "C09"
+      ]
+    }
+  }
+}
